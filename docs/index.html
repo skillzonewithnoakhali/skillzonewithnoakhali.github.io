@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আমার ডিজিটাল এজেন্সি</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        /* Navigation */
+        .navbar {
+            background: #2c3e50;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+        
+        .logo {
+            color: white;
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 2rem;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #3498db;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 180px 0 100px;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+        
+        .btn {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #c0392b;
+        }
+        
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-card h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        
+        /* Contact Section */
+        .contact {
+            padding: 80px 0;
+        }
+        
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        
+        .form-group textarea {
+            height: 120px;
+            resize: vertical;
+        }
+        
+        /* Footer */
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .nav-links {
+                margin-top: 1rem;
+            }
+            
+            .nav-links a {
+                margin: 0 1rem;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">ডিজিটাল এজেন্সি</a>
+            <div class="nav-links">
+                <a href="#home">হোম</a>
+                <a href="#services">সেবাসমূহ</a>
+                <a href="#contact">যোগাযোগ</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>পেশাদার ডিজিটাল মার্কেটিং সমাধান</h1>
+            <p>আপনার ব্যবসাকে ডিজিটাল জগতে নিয়ে যান আমাদের এক্সপার্ট টিমের সাথে। আধুনিক ওয়েবসাইট ডিজাইন, SEO এবং সোশ্যাল মিডিয়া মার্কেটিং সার্ভিস</p>
+            <button class="btn">বিনামূল্য কনসাল্টেশন নিন</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>আমাদের সেবাসমূহ</h2>
+                <p>আমরা comprehensive ডিজিটাল মার্কেটিং সলিউশন অফার করি</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>ওয়েবসাইট ডিজাইন</h3>
+                    <p>আধুনিক এবং রেস্পন্সিভ ওয়েবসাইট ডিজাইন ও ডেভেলপমেন্ট</p>
+                </div>
+                <div class="service-card">
+                    <h3>এসইও সার্ভিস</h3>
+                    <p>গুগলে প্রথম পেজে আনার গ্যারান্টি সহ সম্পূর্ণ এসইও সার্ভিস</p>
+                </div>
+                <div class="service-card">
+                    <h3>সোশ্যাল মিডিয়া মার্কেটিং</h3>
+                    <p>ফেসবুক, ইনস্টাগ্রামে প্রফেশনাল প্রেজেন্স তৈরি করুন</p>
+                </div>
+                <div class="service-card">
+                    <h3>কন্টেন্ট মার্কেটিং</h3>
+                    <p>মানসম্পন্ন কন্টেন্ট তৈরি করে অডিয়েন্স এনগেজ করুন</p>
+                </div>
+                <div class="service-card">
+                    <h3>ই-কমার্স সলিউশন</h3>
+                    <p>অনলাইন স্টোর তৈরি করে বিক্রয় বাড়ান</p>
+                </div>
+                <div class="service-card">
+                    <h3>ব্র্যান্ডিং</h3>
+                    <p>পেশাদার ব্র্যান্ড আইডেন্টিটি তৈরি করুন</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>যোগাযোগ করুন</h2>
+                <p>আমাদের সাথে কাজ করতে চাইলে নিচের ফর্মটি পূরণ করুন</p>
+            </div>
+            
+            <div class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="আপনার নাম" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="ইমেইল ঠিকানা" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="ফোন নম্বর">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="আপনার মেসেজ" required></textarea>
+                </div>
+                <button type="submit" class="btn">মেসেজ পাঠান</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; ২০২৪ ডিজিটাল এজেন্সি। সকল অধিকার সংরক্ষিত।</p>
+            <p>ইমেইল: contact@digitalagency.com | ফোন: ০১৭XX-XXXXXX</p>
+            <p>ঠিকানা: আপনার ব্যবসার ঠিকানা, শহর, বাংলাদেশ</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Simple form validation
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('ধন্যবাদ! আপনার মেসেজটি আমরা পেয়েছি। শীঘ্রই আমরা আপনার সাথে যোগাযোগ করব।');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
