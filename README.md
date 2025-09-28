@@ -56,7 +56,7 @@
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#home" class="logo">Skill Zone Agency</a>
+            <a href="#home" class="logo">Skill Zone Noakhali</a>
             <div class="nav-links">
                 <a href="#home">হোম</a>
                 <a href="#services">সেবাসমূহ</a>
@@ -110,7 +110,7 @@
 
     <footer>
         <div class="footer-content">
-            <h3>Skill Zone Agency</h3>
+            <h3>Skill Zone Noakhali</h3>
             <p>ডিজিটাল জগতে আপনার ব্যবসার সেরা পার্টনার</p>
             <div class="social-links">
                 <a href="#">📘 Facebook</a>
@@ -118,9 +118,9 @@
                 <a href="#">💼 LinkedIn</a>
                 <a href="#">📞 WhatsApp</a>
             </div>
-            <p>ইমেইল: contact@skillzone.com | ফোন: ০১৭XX-XXXXXX</p>
-            <p>ঠিকানা: আপনার ব্যবসার ঠিকানা, শহর, বাংলাদেশ</p>
-            <p>&copy; ২০২৪ Skill Zone Agency। সকল অধিকার সংরক্ষিত।</p>
+            <p>ইমেইল: skillzonenoakhali@gmail.com | ফোন: 01765-486142</p>
+            <p>ঠিকানা: সদর, নোয়াখালী, বাংলাদেশ</p>
+            <p>&copy; 2025 Skill Zone Noakhali। সকল অধিকার সংরক্ষিত।</p>
         </div>
     </footer>
 
